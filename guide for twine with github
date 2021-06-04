@@ -1,0 +1,42 @@
+from: https://www.reddit.com/r/twinegames/comments/hmq9wm/a_guide_to_hosting_twine_stories_using_github/
+reddit user: https://www.reddit.com/user/aspwil/
+
+A Guide to Hosting Twine Stories Using GitHub
+ News/Article
+
+Hello all you B-E-A-utiful spinners (get it, cause spinning twine). Ever wanted to host your twine story, but didn`t not know where to start? In this post I will go over the basics of how to host your twine story, online, for free, with the power of GitHub. Hosting this way allows you to host unlimited stories with simple URLs along the lines of username.github.io/storyname. This way is simple and easy, allowing you to host your story in only a few minutes with about 15 min of first time setup. now on to the specifics:
+step 1: set up a Github account
+
+    Go to github.com and enter in your email, a password and most importantly a username, this username will be part of the URL used to go to your story, and can not be changed later (make sure its a good one)
+
+    Complete the capthcha and uncheck the emails box if you don't wish to receive any, then press the free plan button
+
+    You can fill in what your interests are, or just scroll to the bottom and press “complete setup”
+
+    Verify your email. log into your email, find the email from GitHub and click the link to verify (if you cant find it check your spam folder)
+
+step 2: create a repository
+
+    back on github.com click on the button that says create a new repository, name the repository after the story, this will the second part of the URL, the storyname
+
+    select public
+
+    check the box that says initalise this project with a readme (this is important)
+
+    press create repository
+
+step 3: add your story
+
+    press the menu that says “Branch: master”
+
+    in the box put exactly “gh-pages” (capitalization matters) and press enter
+
+    under breaches menu select the newly created gh-pages branch
+
+    press add file > upload files
+
+    take the HTML file given by Twine's publish to file option and rename it to “index.html”
+
+    drag and drop the index.html file here to upload and then press commit changes
+
+and done. Your story is now available for all to see at username.github.io/storyname
